@@ -1787,7 +1787,7 @@ header .logo a {
   height: 4.8rem;
   width: 4.8rem;
   line-height: 4.8rem;
-  background: black;
+  background: transparent;
   border-radius: 50%;
   text-align: center;
   color: #ffffff;
