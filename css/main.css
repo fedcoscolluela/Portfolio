@@ -49,7 +49,9 @@
   -webkit-transition: -webkit-transform 0.8s ease;
   transition: -webkit-transform 0.8s ease;
   transition: transform 0.8s ease;
-  transition: transform 0.8s ease, -webkit-transform 0.8s ease;
+  transition:
+    transform 0.8s ease,
+    -webkit-transform 0.8s ease;
 }
 .slides .slide {
   height: 100vh;
