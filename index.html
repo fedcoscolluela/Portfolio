@@ -1,661 +1,377 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="en">
+
+<link rel="stylesheet" href="css/main.css" />
+<script src="js/main.js" defer></script>
 
 <head>
-  <!--- basic page needs
-   ================================================== -->
-  <meta charset="utf-8" />
-  <title>Portfolio</title>
-  <meta name="description" content="" />
-  <meta name="author" content="" />
-
-  <!-- mobile specific metas
-   ================================================== -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-
-  <!-- CSS
-   ================================================== -->
-  <link rel="stylesheet" href="css/base.css" />
-  <link rel="stylesheet" href="css/main.css" />
-  <link rel="stylesheet" href="css/vendor.css" />
-
-  <!-- script
-   ================================================== -->
-  <script src="js/modernizr.js"></script>
-  <script src="js/pace.min.js"></script>
-
-  <!-- favicons
-	================================================== -->
-  <link rel="icon" type="image/png" href="/images/header_icon.png" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fed Coscolluela</title>
 </head>
 
-<body id="top">
-  <!-- =============
-      Header Section
-     =============== -->
-  <header>
-    <div class="row">
-      <div class="top-bar">
-        <a class="menu-toggle" href="#"><span>Menu</span></a>
+<body>
 
-        <div class="logo">
-          <a href="index.html" style="color: white"></a>
-        </div>
-
-        <nav id="main-nav-wrap">
-          <ul class="main-navigation">
-            <li class="current">
-              <a class="smoothscroll" href="#intro" title="">Home</a>
-            </li>
-            <li><a class="smoothscroll" href="#about" title="">About</a></li>
-            <li>
-              <a class="smoothscroll" href="#resume" title="">Background</a>
-            </li>
-            <li>
-              <a class="smoothscroll" href="#portfolio" title="">Highlight</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <!-- /top-bar -->
-    </div>
-    <!-- /row -->
-  </header>
-  <!-- /header -->
-
-  <!-- =============
-      Intro Section
-     =============== -->
-  <section id="intro">
-    <div class="intro-overlay"></div>
-
-    <div class="intro-content">
-      <div class="row">
-        <div class="col-twelve">
-          <h5>Hello there!</h5>
-          <h1>I'm Fed Coscolluela.</h1>
-
-          <p class="intro-position">
-            <span>Full-Stack Development</span>
-            <span>Machine Learning</span>
-          </p>
-
-          <a class="button transparent smoothscroll" href="#about" title="">More About Me</a>
-        </div>
-      </div>
-    </div>
-    <!-- /intro-content -->
-
-    <ul class="intro-social">
-      <li>
-        <a href="https://www.facebook.com/janfederico.coscolluela.7/"><i class="fa fa-facebook"></i></a>
-      </li>
-      <li>
-        <a href="https://www.linkedin.com/in/federico-coscolluela"><i class="fa fa-linkedin"></i></a>
-      </li>
-      <!-- <li>
-        <a href="https://github.com/fedcoscolluela"><i class="fa fa-github"></i></a>
-      </li> -->
+  <!-- NAV -->
+  <nav>
+    <a class="nav-logo" href="#hero">Fed Coscolluela</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
-    <!-- /intro-social -->
-  </section>
-  <!-- /intro -->
+  </nav>
 
-  <!-- ==========
-    About Section
-   =============== -->
+  <!-- HERO -->
+  <div id="hero">
+    <div class="hero-text">
+      <p class="hero-eyebrow">Developer</p>
+      <h1 class="hero-title">Hi, I'm Fed<br>Coscolluela.</h1>
+      <p class="hero-sub">I craft clean, thoughtful digital experiences — turning complex problems into simple, elegant
+        solutions.</p>
+      <a class="hero-cta" href="#about">Explore my work ↓</a>
+    </div>
+    <div class="hero-image-wrap">
+      <img src="images/profile.svg" alt="Fed Coscolluela" />
+    </div>
+  </div>
 
+  <!-- ABOUT -->
   <section id="about">
-    <div class="row section-intro">
-      <div class="col-twelve">
-        <h1>Thank you for taking the time!</h1>
-
-        <div class="intro-info">
-          <img src="images/profile.jpeg" alt="Profile Picture" />
-
-          <p class="lead">
-            I have over 2 years of professional experience specializing in software
-            development, big data analysis,
-            and streamlining of processes to accelerate decision-making across diverse business scenarios. Beyond this,
-            I have a passion for music and enjoy playing the piano in my free time.
-          </p>
-        </div>
-      </div>
+    <div class="reveal">
+      <span class="section-label">About Me</span>
+      <h2 class="section-title">Thank you for sharing your time.</h2>
     </div>
-
-    <!-- /section-intro -->
-
-    <div class="row button-section">
-      <div class="col-twelve">
-        <a href="#portfolio" title="Highlight" class="button transparent smoothscroll">Highlight</a>
-        <!-- <a href="essentials/Coscolluela_JanFederico.pdf" title="Download CV" class="button button-primary"
-          download>Download CV</a> -->
+    <div class="about-grid reveal">
+      <div class="about-text">
+        <p>I'm <strong>Jan Federico Coscolluela IV</strong>, a Computer Science professional based in the Philippines
+          with
+          research experience in healthcare informatics, electronics, and semiconductor operations.</p>
+        <p>I'm recognitioned in software development and data systems, with research interests in computer vision and
+          NLP. I
+          graduated <strong>Magna Cum Laude</strong> from the University of the Philippines Manila, with a Best Thesis
+          award.</p>
+        <p>Recipient of full scholarship in the <strong>Erasmus Mundus in Artificial Intelligence (EMAI)</strong>
+          programme.</p>
+      </div>
+      <div class="about-stats">
+        <div class="stat-item">
+          <div class="stat-num">2+</div>
+          <div class="stat-desc">Years at Texas Instruments</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">2</div>
+          <div class="stat-desc">Published research papers</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">7+</div>
+          <div class="stat-desc">Awards & recognitions</div>
+        </div>
       </div>
     </div>
   </section>
-  <!-- /process-->
 
-  <!-- ==========
-      Resume Section
-     =============== -->
-
-  <section id="resume" class="grey-section">
-    <div class="row resume-timeline">
-      <div class="col-twelve resume-header">
-        <h2>Professional Experience</h2>
+  <!-- PROJECTS -->
+  <div id="projects">
+    <div class="inner">
+      <div class="reveal" style="padding:0 0 48px">
+        <span class="section-label">Projects</span>
+        <h2 class="section-title" style="margin-bottom:0">Things I've built.</h2>
       </div>
-      <!-- /resume-header -->
+      <div class="projects-grid reveal">
 
-      <div class="col-twelve">
-        <div class="timeline-wrap">
-
-          <div class="timeline-block">
-            <div class="timeline-ico">
-              <a href="https://www.ti.com/" target="_blank"><img src="images/texas_instruments.jpg" alt="" /></a>
-            </div>
-
-            <div class="timeline-header">
-              <h3>AI Automation Team Lead</h3>
-              <p>Sep 2025 - Apr 2026</p>
-            </div>
-
-            <div class="timeline-content">
-              <h4>Texas Instruments</h4>
-              <p>
-              <ul>
-                <li>
-                  Led a 6-member site automation team across software and hardware robotics initiatives, driving the
-                  development and deployment of in-house automation systems.
-                </li>
-              </ul>
-              </p>
+        <div class="proj-card" onclick="openModal('p1')">
+          <div class="proj-bg" style="background:#e8e4de">
+            <img src="images/projects/monixor.svg" alt="Monixor" class="proj-bg-icon">
+          </div>
+          <div class="proj-overlay">
+            <div class="proj-info">
+              <div class="proj-tag">Healthcare</div>
+              <div class="proj-name">Computer Vision and Semi-Automated Annotation of Novel Dataset</div>
+              <div class="proj-desc">A full-stack web-based platform to digitize medical imaging and improve diagnostic
+                accuracy.
+              </div>
+              <span class="proj-link">View details →</span>
             </div>
           </div>
-
-
-          <div class="timeline-block">
-
-            <div class="timeline-header">
-              <h3>Application Developer</h3>
-              <p>Aug 2023 - Sep 2025</p>
-            </div>
-
-            <div class="timeline-content">
-              <p>
-              <ul>
-                <li>
-                  Pioneered the development and fan-out of an automated cost
-                  monitoring tool across 7 sites, achieving record-breaking cost goals in 3 consecutive quarters and
-                  saving 150
-                  hours per quarter.
-                </li>
-              </ul>
-              </p>
-            </div>
-          </div>
-
-          <div class="timeline-block">
-
-            <div class="timeline-header">
-              <h3>Application Developer Intern</h3>
-              <p>Jul 2022 - Aug 2022</p>
-            </div>
-
-            <div class="timeline-content">
-              <p>
-              <ul>
-                <li>
-                  Designed and integrated validation-enabled data upload feature in an enterprise supply chain system,
-                  saving business planners 6 hours per daily cycle while preserving complex business rules.
-                </li>
-              </ul>
-              </p>
-            </div>
-          </div>
-
-          <div class="timeline-block">
-            <div class="timeline-ico">
-              <a href="https://asti.dost.gov.ph/" target="_blank"><img src="images/dost_asti.png" alt="" /></a>
-            </div>
-
-            <div class="timeline-header">
-              <h3>Data Engineer Intern</h3>
-              <p>Jun 2021 - Aug 2021</p>
-            </div>
-
-            <div class="timeline-content">
-              <h4>Department of Science & Technology, Advanced Sciences & Technology Institute</h4>
-              <p>
-              <ul>
-                <li>
-                  Developed machine learning models for weather prediction with 90% accuracy using extensive datasets.
-                </li>
-              </ul>
-              </p>
-            </div>
-          </div>
-
-          <div class="timeline-block">
-            <div class="timeline-ico">
-              <a href="https://www.cebupacificair.com/" target="_blank"><img src="images/CebPac.jpg" alt="" /></a>
-            </div>
-
-            <div class="timeline-header">
-              <h3>IT Intern</h3>
-              <p>Sep 2020 - Dec 2021</p>
-            </div>
-
-            <div class="timeline-content">
-              <h4>Cebu Pacific Air</h4>
-              <p>
-              <ul>
-                <li>
-                  Led the frontend development of a 6-page Express Booking website within a 5-person team and improved
-                  overall booking flow of the current system by 25% less click count
-                </li>
-                <li>
-                  Delivered technical architecture documentation and use-case diagrams of the project as synthesis of
-                  workshopsin UI/UX and Data Analysis among others
-                </li>
-              </ul>
-              </p>
-            </div>
-          </div>
-
-          <div class="timeline-block">
-            <div class="timeline-ico">
-              <a href="https://wecodeucate.netlify.app/" target="_blank"><img src="images/Codeucate.png" alt="" /></a>
-            </div>
-
-            <div class="timeline-header">
-              <h3>Teaching Assistant</h3>
-              <p>July 2020 - August 2020</p>
-            </div>
-
-            <div class="timeline-content">
-              <h4>Codeucate, Chicago, USA</h4>
-              <p>
-              <ul>
-                <li>Supervised and debugged over 15 algorithm and web design projects in Python and HTML/CSS, among
-                  others</li>
-                <li>Led twelve virtual programming classes to teach US-based students during the pandemic</li>
-              </ul>
-              </p>
-            </div>
-          </div>
-          <!-- /timeline-block -->
         </div>
-        <!-- /timeline-wrap -->
-      </div>
-      <!-- /col-twelve -->
-    </div>
-    <!-- /resume-timeline -->
 
-    <div class="row resume-timeline">
-      <div class="col-twelve resume-header">
-        <h2>Education</h2>
-      </div>
-      <!-- /resume-header -->
-
-      <div class="col-twelve">
-        <div class="timeline-wrap">
-          <div class="timeline-block">
-            <div class="timeline-ico">
-              <a href="https://www.upm.edu.ph/" target="_blank"><img src="images/UP Manila.png" alt="" /></a>
-            </div>
-
-            <div class="timeline-header">
-              <h3>BS Computer Science</h3>
-              <p>July 2019 - May 2023</p>
-            </div>
-
-            <div class="timeline-content">
-              <h4>University of the Philippines Manila</h4>
-              <p>
-              <ul>
-                <li>Major in Statistical Computing, Magna Cum Laude (GPA: 1.2)</li>
-                <li>DOST SPARTA Project Scholar, Data Associate Pathway</li>
-                <li>Best Thesis Recipient</li>
-              </ul>
-              </p>
+        <div class="proj-card" onclick="openModal('p2')">
+          <div class="proj-bg" style="background:#dde4e8"><img src="images/projects/appcon_excellence_award.jpeg"
+              alt="Monixor" class="proj-bg-icon"></div>
+          <div class="proj-overlay">
+            <div class="proj-info">
+              <div class="proj-tag">Blockchain Technology</div>
+              <div class="proj-name">Hackathon | Procurement System for Transparency</div>
+              <div class="proj-desc">An e-procurement system designed to enhance transparency and efficiency in
+                government procurement processes.</div>
+              <span class="proj-link">View details →</span>
             </div>
           </div>
-          <!-- /timeline-block -->
-
-          <div class="timeline-block">
-            <div class="timeline-ico">
-              <a href="https://www.facebook.com/SaintCharlesAcademyTheOfficial/" target="_blank"><img
-                  src="images/SCA_GoldenLogo.png" alt="" /></a>
-            </div>
-
-            <div class="timeline-header">
-              <h3>Science, Technology, Engineering, and Mathematics Track</h3>
-              <p>August 2017 - June 2019</p>
-            </div>
-
-            <div class="timeline-content">
-              <h4>Saint Charles Academy</h4>
-              <p>
-              <ul>
-                <li>Batch Valedictorian, 1<sup>st</sup>/200+ (Archbishop's Lister)</li>
-                <li>Research Paper Presenter, Dela Salle University 1<sup>st</sup> Research Congress
-              </ul>
-              </p>
-            </div>
-          </div>
-          <!-- /timeline-block -->
         </div>
-        <!-- /timeline-wrap -->
-      </div>
-      <!-- /col-twelve -->
-    </div>
-    <!-- /resume-timeline -->
-  </section>
-  <!-- /features -->
 
-  <!-- ================
-      Portfolio Section
-     ================== -->
-  <section id="portfolio">
-    <div class="row section-intro">
-      <div class="col-twelve">
-        <h5>Highlight</h5>
-        <h1>Career and Academic Snapshot</h1>
-      </div>
-    </div>
-    <!-- /section-intro-->
-
-    <div class="row portfolio-content">
-      <div class="col-twelve">
-        <!-- portfolio-wrapper -->
-        <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
-          <div class="bgrid folio-item">
-            <div class="item-wrap">
-              <img src="images/magna_cum_laude.jpg" alt="Debate Cup" />
-              <a href="#modal-01" class="overlay">
-                <div class="folio-item-table">
-                  <div class="folio-item-cell">
-                    <h3 class="folio-title">Magna Cum Laude</h3>
-                    <span class="folio-types"> UP Manila B.S. Computer Science, <br>
-                      Major in Statistical Computing
-                    </span>
-                  </div>
-                </div>
-              </a>
+        <div class="proj-card" onclick="openModal('p3')">
+          <div class="proj-bg" style="background:#e4e8dd"></div>
+          <div class="proj-overlay">
+            <div class="proj-info">
+              <div class="proj-tag">Blockchain Technology</div>
+              <div class="proj-name">Hackathon | Procurement System for Transparency</div>
+              <div class="proj-desc">An e-procurement system designed to enhance transparency and efficiency in
+                government procurement processes.</div>
+              <span class="proj-link">View details →</span>
             </div>
           </div>
-          <!-- /folio-item -->
-
-          <div class="bgrid folio-item">
-            <div class="item-wrap">
-              <img src="images/technical_symposium.jpeg" alt="Math Competition" />
-              <a href="#modal-02" class="overlay">
-                <div class="folio-item-table">
-                  <div class="folio-item-cell">
-                    <h3 class="folio-title">Best Paper, Best Presenter</h3>
-                    <span class="folio-types">Texas Instruments Philippines <br> Technical Conference 2024</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <!-- /folio-item -->
-
-          <div class="bgrid folio-item">
-            <div class="item-wrap">
-              <img src="images/best_thesis.png" alt="DLSU Research Congress" />
-              <a href="#modal-03" class="overlay">
-                <div class="folio-item-table">
-                  <div class="folio-item-cell">
-                    <h3 class="folio-title">Best Thesis</h3>
-                    <span class="folio-types">
-
-                      Using Semi-Auto Annotation and <br>
-                      Optical Character Recognition for <br>
-                      Transcription of Patient Monitor
-                      Using <br>
-                      Smartphone Camera</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <!-- /folio-item -->
-
-          <div class="bgrid folio-item">
-            <div class="item-wrap">
-              <img src="images/appcon_excellence_award.jpeg" alt="CS Summit 4.0" />
-              <a href="#modal-04" class="overlay">
-                <div class="folio-item-table">
-                  <div class="folio-item-cell">
-                    <h3 class="folio-title">Excellence Award</h3>
-                    <span class="folio-types">Application Contest 2022, OTis Philippines Inc. </span>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <!-- /folio-item -->
-
-          <div class="bgrid folio-item">
-            <div class="item-wrap">
-              <img src="images/archbishop's_lister.jpg" alt="Valedictorian" />
-              <a href="#modal-05" class="overlay">
-                <div class="folio-item-table">
-                  <div class="folio-item-cell">
-                    <h3 class="folio-title">Batch Valedictorian</h3>
-                    <span class="folio-types"> Senior High School, STEM-focused curriculum <br>
-                      (GPA: 96)</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <!-- /folio-item -->
-
-          <div class="bgrid folio-item">
-            <div class="item-wrap">
-              <img src="images/robotics.jpg" alt="Robotics Workshop" />
-              <a href="#modal-06" class="overlay">
-                <div class="folio-item-table">
-                  <div class="folio-item-cell">
-                    <h3 class="folio-title">DOST Robotics Training Program</h3>
-                    <span class="folio-types"> Simple SumoBot Workshop </span>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <!-- /folio-item -->
-
-          <!-- modal popups - begin
-	            ============================================================= -->
-          <div id="modal-01" class="popup-modal slider mfp-hide">
-            <div class="media">
-              <img src="images/magna_cum_laude.jpg" alt="" />
-            </div>
-
-            <div class="description-box">
-              <h4>Magna Cum Laude</h4>
-              <p>
-                UP Manila B.S. Computer Science, Major in Statistical Computing
-              </p>
-
-              <div class="categories">College</div>
-            </div>
-
-            <div class="link-box">
-              <!-- <a href="http://www.behance.net">Details</a> -->
-              <a href="#" class="popup-modal-dismiss">Close</a>
-            </div>
-          </div>
-          <!-- /modal-01 -->
-
-          <div id="modal-02" class="popup-modal slider mfp-hide">
-            <div class="media">
-              <img src="images/technical_symposium.jpeg" alt="" />
-            </div>
-
-            <div class="description-box">
-              <h4>One TI Philippines Technical Conference 2024</h4>
-              <p>
-                Awarded the Best Paper for impact and novelty of solution focused on automating cost monitoring and
-                enabling data visibility and distributing ownership for all through active engagement.
-              </p>
-
-              <div class="categories">Career</div>
-            </div>
-
-            <div class="link-box">
-              <!-- <a href="http://www.behance.net">Details</a> -->
-              <a href="#" class="popup-modal-dismiss">Close</a>
-            </div>
-          </div>
-          <!-- /modal-02 -->
-
-          <div id="modal-03" class="popup-modal slider mfp-hide">
-            <div class="media">
-              <img src="images/best_thesis.png" alt="" />
-            </div>
-
-            <div class="description-box">
-              <h4>Best Thesis Award</h4>
-              <p>
-                Utilized machine learning, computer vision, and web development to transcribe and automatically analyze
-                patient monitor data, alongisde a novel dataset for future studies.
-              </p>
-
-              <div class="categories">College</div>
-            </div>
-
-            <div class="link-box">
-              <!-- <a href="http://www.behance.net">Details</a> -->
-              <a href="#" class="popup-modal-dismiss">Close</a>
-            </div>
-          </div>
-          <!-- /modal-03 -->
-
-          <div id="modal-04" class="popup-modal slider mfp-hide">
-            <div class="media">
-              <img src="images/appcon_excellence_award.jpeg" alt="" />
-            </div>
-
-            <div class="description-box">
-              <h4>Excellence Award, AppCon 2022</h4>
-              <p>
-                Web application designed to enhance trust and transparency in e-procurement by utilizing the immutable
-                and auditable nature of blockchain technology.
-              </p>
-
-              <div class="categories">College</div>
-            </div>
-
-            <div class="link-box">
-              <!--  <a href="http://www.behance.net">Details</a> -->
-              <a href="#" class="popup-modal-dismiss">Close</a>
-            </div>
-          </div>
-          <!-- /modal-04 -->
-
-          <div id="modal-05" class="popup-modal slider mfp-hide">
-            <div class="media">
-              <img src="images/archbishop's_lister.jpg" alt="" />
-            </div>
-
-            <div class="description-box">
-              <h4>Archnishop's Lister</h4>
-              <p>
-                Received the highest distinction (1st/~200 students) across 4 tracks: STEM, AMB, HUMMS, and GAS.
-              </p>
-
-              <div class="categories">Senior High</div>
-            </div>
-
-            <div class="link-box">
-              <!-- <a href="http://www.behance.net">Details</a> -->
-              <a href="#" class="popup-modal-dismiss">Close</a>
-            </div>
-          </div>
-          <!-- /modal-05 -->
-
-          <div id="modal-06" class="popup-modal slider mfp-hide">
-            <div class="media">
-              <img src="images/robotics.jpg" alt="" />
-            </div>
-
-            <div class="description-box">
-              <h4>DOST Robotics Workshop</h4>
-              <p>
-                Participated in the Robotics Workshop and competed in a SumoBot Competition
-                in the same day.
-              </p>
-
-              <div class="categories">Senior High</div>
-            </div>
-
-            <div class="link-box">
-              <!--  <a href="http://www.behance.net">Details</a> -->
-              <a href="#" class="popup-modal-dismiss">Close</a>
-            </div>
-          </div>
-          <!-- /modal-06 -->
-
-          <!-- modal popups - end
-	            ============================================================= -->
         </div>
-        <!-- /portfolio-wrapper -->
+
+        <div class="proj-card" onclick="openModal('p4')">
+          <div class="proj-bg" style="background:rgb(241, 208, 208)"><img
+              src="https://www.linkedin.com/in/federico-coscolluela/overlay/contact-info/" alt="Monixor"
+              class="proj-bg-icon"></div>
+          <div class="proj-overlay">
+            <div class="proj-info">
+              <div class="proj-tag">Semiconductor & Manufacturing</div>
+              <div class="proj-name">Cost Automation Tool</div>
+              <div class="proj-desc">Enterprise web-based cost automation solution enabling realtime spend and budget
+                analysis across factories.</div>
+              <span class="proj-link">View details →</span>
+            </div>
+          </div>
+        </div>
+
       </div>
-      <!-- /twelve -->
-    </div>
-    <!-- /portfolio-content -->
-  </section>
-  <!-- /portfolio -->
-
-  <div class="row contact-info">
-    <div class="col-six tab-full collapse">
-      <div class="icon">
-        <i class="icon-mail"></i>
-      </div>
-
-      <h5>Email Address</h5>
-
-      <p>
-        jpcoscolluela@alum.up.edu.ph<br />
-      </p>
-    </div>
-
-    <div class="col-six tab-full">
-      <div class="icon">
-        <i class="icon-phone"></i>
-      </div>
-
-      <h5>Contact Number</h5>
-
-      <p>
-        Mobile: (+63) 945 732 5869<br />
-      </p>
     </div>
   </div>
-  <!-- /contact-info -->
-  </section>
 
-  <footer>
-    <div class="row">
-      <div id="go-top">
-        <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
-      </div>
+  <!-- MODAL -->
+  <div class="proj-modal-bg" id="projModal" onclick="closeModal(event)">
+    <div class="proj-modal" id="modalContent">
+      <button class="modal-close" onclick="closeModalDirect()"></button>
+      <div class="modal-emoji" id="mEmoji"></div>
+      <div class="modal-tag" id="mTag"></div>
+      <div class="modal-title" id="mTitle"></div>
+      <div class="modal-desc" id="mDesc"></div>
+      <div class="modal-stack" id="mStack"></div>
+      <a class="modal-cta" href="#" id="mLink" target="_blank">View project →</a>
     </div>
-  </footer>
-
-  <div id="preloader">
-    <div id="loader"></div>
   </div>
 
-  <!-- Java Script
-   ================================================== -->
-  <script src="js/jquery-2.1.3.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="reveal">
+      <span class="section-label">Experience</span>
+      <h2 class="section-title">Where I've been.</h2>
+    </div>
+    <div class="exp-list reveal">
+
+      <div class="exp-item">
+        <div class="exp-date">Sep 2025 — Apr 2026</div>
+        <div>
+          <div class="exp-header">
+            <img class="exp-logo" src="https://www.google.com/s2/favicons?domain=ti.com&sz=64"
+              alt="Texas Instruments" />
+            <div>
+              <div class="exp-role">AI Automation Lead</div>
+              <div class="exp-company">Texas Instruments · Full-time</div>
+            </div>
+          </div>
+          <div class="exp-desc">Led a 6-member site automation team across software and hardware robotics initiatives,
+            driving development and deployment of in-house automation systems. Co-developed Python-based monitoring
+            solutions for Test logpoint operations for real-time detection of machine-to-recipe mismatches.</div>
+        </div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-date">Aug 2023 — Sep 2025</div>
+        <div>
+          <div class="exp-header">
+            <img class="exp-logo" src="https://www.google.com/s2/favicons?domain=ti.com&sz=64"
+              alt="Texas Instruments" />
+            <div>
+              <div class="exp-role">Application Developer</div>
+              <div class="exp-company">Texas Instruments · Full-time</div>
+            </div>
+          </div>
+          <div class="exp-desc">Cost Automations Development Lead — developed and fanned out a worldwide cost automation
+            project across 7 sites enabling savings of 160 hrs/qtr. Software Development Lead for Mold Scrappage
+            Reduction Program, cutting scrap from 8.84% to 1.19% in Q2 2024 via 3 web-based applications. Won Best Paper
+            at One TI Philippines Technical Symposium 2024.</div>
+        </div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-date">Jul 2022 — Aug 2022</div>
+        <div>
+          <div class="exp-header">
+            <img class="exp-logo" src="https://www.google.com/s2/favicons?domain=ti.com&sz=64"
+              alt="Texas Instruments" />
+            <div>
+              <div class="exp-role">Application Developer Intern</div>
+              <div class="exp-company">Texas Instruments · Internship</div>
+            </div>
+          </div>
+          <div class="exp-desc">Implemented mass data import on an enterprise-wide supply chain system, fast-tracking
+            business planners' time by 6 hrs per daily planning cycle. Streamlined workflow by over 50% cutoff of
+            downloaded plan details enabling faster plan adjustment across file types.</div>
+        </div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-date">Oct 2022 — Jun 2024</div>
+        <div>
+          <div class="exp-header">
+            <img class="exp-logo" src="https://www.google.com/s2/favicons?domain=gdg.community.dev&sz=64" alt="GDG" />
+            <div>
+              <div class="exp-role">Chief Finance & Externals Officer</div>
+              <div class="exp-company">Google Developer Groups on Campus UP Manila · Volunteer</div>
+            </div>
+          </div>
+          <div class="exp-desc">Managed the organization's funds and internal partnerships. Established and maintained
+            strong relationships with businesses, schools, and organizations.</div>
+        </div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-date">Jun 2021 — Sep 2021</div>
+        <div>
+          <div class="exp-header">
+            <img class="exp-logo"
+              src="https://asti.dost.gov.ph/wp-content/uploads/2020/10/2020-NSTW-DOST-ASTI-Technologies-submitted-to-DOST-TAPI-20201009-150x150.png"
+              alt="DOST ASTI" />
+            <div>
+              <div class="exp-role">Data Engineer Intern</div>
+              <div class="exp-company">DOST — Advanced Science and Technology Institute · Internship</div>
+            </div>
+          </div>
+          <div class="exp-desc">Utilized machine learning algorithms for satellite imaging and tower classification.
+            Performed data mining and preprocessing through a Python web scraping pipeline used for AI engineering.
+          </div>
+        </div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-date">Aug 2021 — Aug 2022</div>
+        <div>
+          <div class="exp-header">
+            <img class="exp-logo"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3AUJ0lVGFTU0TW9sy94j5CJQhTJ0k-P4Qig&s"
+              alt="UP Society of Computer Scientists" />
+            <div>
+              <div class="exp-role">Board Member for Members</div>
+              <div class="exp-company">UP Society of Computer Scientists · Volunteer</div>
+            </div>
+          </div>
+          <div class="exp-desc">Co-headed the planning and implementation of membership-related events to promote
+            internal communication and networking opportunities. Organized the list of members and assisted in handling
+            member-related database.</div>
+        </div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-date">Sep 2020 — Aug 2021</div>
+        <div>
+          <div class="exp-header">
+            <img class="exp-logo"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3AUJ0lVGFTU0TW9sy94j5CJQhTJ0k-P4Qig&s"
+              alt="UP Society of Computer Scientists" />
+            <div>
+              <div class="exp-role">Marketing Committee Member</div>
+              <div class="exp-company">UP Society of Computer Scientists · Volunteer</div>
+            </div>
+          </div>
+          <div class="exp-desc">Engaged with promotion and publication of events through assistive marketing efforts.
+            Recipient of the Communication Excellence Award.</div>
+        </div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-date">Sep 2020 — Jan 2021</div>
+        <div>
+          <div class="exp-header">
+            <img class="exp-logo" src="https://www.google.com/s2/favicons?domain=cebupacificair.com&sz=64"
+              alt="Cebu Pacific" />
+            <div>
+              <div class="exp-role">Information Technology Intern</div>
+              <div class="exp-company">Cebu Pacific Air · Internship</div>
+            </div>
+          </div>
+          <div class="exp-desc">Collaborated in web development of a flight booking prototype using HTML and JavaScript.
+            Delivered use case diagrams and participated in daily SCRUM stand-ups.</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- RECOGNITION -->
+  <div id="recognition" style="padding:120px 8% 100px">
+    <div class="inner">
+      <div class="reveal">
+        <span class="section-label">recognitions</span>
+        <h2 class="section-title">What I work with.</h2>
+      </div>
+      <div class="recognitions-grid reveal">
+        <div class="recognition-card">
+          <div class="recognition-icon">⚛️</div>
+          <div class="recognition-name">React</div>
+          <div class="recognition-level">Frontend</div>
+        </div>
+        <div class="recognition-card">
+          <div class="recognition-icon">🟨</div>
+          <div class="recognition-name">JavaScript</div>
+          <div class="recognition-level">Core language</div>
+        </div>
+        <div class="recognition-card">
+          <div class="recognition-icon">🔷</div>
+          <div class="recognition-name">TypeScript</div>
+          <div class="recognition-level">Typed JS</div>
+        </div>
+        <div class="recognition-card">
+          <div class="recognition-icon">🟢</div>
+          <div class="recognition-name">Node.js</div>
+          <div class="recognition-level">Backend</div>
+        </div>
+        <div class="recognition-card">
+          <div class="recognition-icon">🐍</div>
+          <div class="recognition-name">Python</div>
+          <div class="recognition-level">Backend / AI</div>
+        </div>
+        <div class="recognition-card">
+          <div class="recognition-icon">🗄️</div>
+          <div class="recognition-name">SQL</div>
+          <div class="recognition-level">Databases</div>
+        </div>
+        <div class="recognition-card">
+          <div class="recognition-icon">🐳</div>
+          <div class="recognition-name">Docker</div>
+          <div class="recognition-level">DevOps</div>
+        </div>
+        <div class="recognition-card">
+          <div class="recognition-icon">☁️</div>
+          <div class="recognition-name">AWS</div>
+          <div class="recognition-level">Cloud</div>
+        </div>
+        <div class="recognition-card">
+          <div class="recognition-icon">🔧</div>
+          <div class="recognition-name">Git</div>
+          <div class="recognition-level">Version control</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <div id="contact">
+    <span class="section-label">Contact</span>
+    <h2 class="section-title reveal">Let's build something<br>great together.</h2>
+    <p class="contact-sub reveal">Open to new opportunities and collaborations.</p>
+    <div class="contact-links reveal">
+      <a class="contact-btn primary" href="mailto:jpcoscolluela@alum.up.edu.ph">✉ Send an email</a>
+      <a class="contact-btn secondary" href="https://linkedin.com/in/federico-coscolluela" target="_blank">LinkedIn
+        →</a>
+    </div>
+    <p class="footer-copy">© 2026 Fed Coscolluela.</p>
+  </div>
 </body>
 
 </html>
