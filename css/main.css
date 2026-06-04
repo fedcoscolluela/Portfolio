@@ -110,7 +110,6 @@ section {
   object-position: center top;
   mix-blend-mode: multiply;
   filter: contrast(1.03) brightness(1.02);
-  background: #edeae4;
 }
 
 /* Tablet */
