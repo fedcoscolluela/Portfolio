@@ -196,15 +196,15 @@ section {
 /* Small mobile */
 @media (max-width: 480px) {
   #hero {
-    padding: 40% 5% 48px;
+    padding: 45% 5% 48px;
   }
 
   .hero-image-wrap {
     position: absolute;
     top: 0;
     right: 0;
-    width: 75%;
-    height: 60%;
+    width: 70%;
+    height: 80%;
     min-height: unset;
     align-self: auto;
     padding: 30% 5%;
@@ -270,7 +270,7 @@ section {
   transform: scale(1.02);
 }
 .hero-text {
-  max-width: 60%;
+  max-width: 80%;
   position: relative;
   z-index: 2;
 }
