@@ -794,15 +794,17 @@ section {
   max-width: 1100px;
   margin: 0 auto;
 }
+
 .recognitions-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   gap: 12px;
+  max-width: 900px;
 }
 .recognition-card {
   background: var(--white);
-  border-radius: 16px;
-  padding: 24px 20px;
+  border-radius: 20px;
+  padding: 28px 22px;
   border: 1px solid var(--gray2);
   transition:
     transform 0.2s,
@@ -810,20 +812,36 @@ section {
   cursor: default;
 }
 .recognition-card:hover {
-  transform: translateY(-4px);
+  transform: translateY(-3px);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.07);
 }
 .recognition-icon {
-  font-size: 28px;
-  margin-bottom: 12px;
+  width: 44px;
+  height: 44px;
+  background: var(--gray1);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+.recognition-icon svg {
+  width: 20px;
+  height: 20px;
+  stroke: var(--gray5);
+  fill: none;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 .recognition-name {
   font-size: 14px;
   font-weight: 600;
   color: var(--black);
+  margin-bottom: 4px;
 }
 .recognition-level {
   font-size: 12px;
   color: var(--gray3);
-  margin-top: 4px;
+  line-height: 1.4;
 }
