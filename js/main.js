@@ -1,3 +1,16 @@
+const burger = document.getElementById("burger");
+const drawer = document.getElementById("navDrawer");
+if (burger && drawer) {
+  burger.addEventListener("click", () => {
+    burger.classList.toggle("open");
+    drawer.classList.toggle("open");
+  });
+}
+function closeDrawer() {
+  burger.classList.remove("open");
+  drawer.classList.remove("open");
+}
+
 const projects = {
   p1: {
     emoji: "🏥",
@@ -29,7 +42,7 @@ const projects = {
     title: "Best Paper Award",
     desc: "Real-time cost automation system for manufacturing visibility of daily expense and budget tracking.",
     stack: ["Spring MVC", "Oracle SQL", "Denodo", "Data Virtualization"],
-    link: "#",
+    link: "https://www.linkedin.com/posts/federico-coscolluela_one-year-in-driving-cost-innovation-and-activity-7263894466611077120-W3V1?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC_aL5UBtJ8Gi3-RNjdfh9nU2h0yRl8jo2E",
   },
 };
 
