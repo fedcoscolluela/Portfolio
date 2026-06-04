@@ -10,10 +10,10 @@ const projects = {
   p2: {
     emoji: "📦",
     tag: "Blockchain - Procurement",
-    title: "Excellence Award, AppCon Hackathon 2024",
+    title: "Excellence Award, AppCon Hackathon 2022 (K++C)",
     desc: "Blockchain-based procurement system for the public sector by developing a smart contract on Ethereum to ensure transparency and efficiency in government procurement processes.",
     stack: ["Blockchain", "Hyperledger Fabric", "Societal Impact"],
-    link: "https://www.linkedin.com/posts/federico-coscolluela_one-year-in-driving-cost-innovation-and-activity-7263894466611077120-W3V1?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC_aL5UBtJ8Gi3-RNjdfh9nU2h0yRl8jo2E",
+    link: "https://appcon.otisphilippines.tech/winners",
   },
   p3: {
     emoji: "❤️",
