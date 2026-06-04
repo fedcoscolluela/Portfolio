@@ -109,7 +109,7 @@ section {
   object-fit: cover;
   object-position: center top;
   mix-blend-mode: multiply;
-  filter: contrast(1.03) brightness(1.02);
+  /* filter: contrast(1.03) brightness(1.02); */
 }
 
 /* Tablet */
